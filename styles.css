@@ -163,6 +163,27 @@ h2 em {
   line-height: 1.9;
 }
 
+.origin-quote {
+  max-width: 540px;
+  margin: 0 0 34px;
+  padding: 17px 0 17px 19px;
+  border-left: 3px solid var(--blue);
+}
+
+.origin-quote p {
+  margin-bottom: 7px;
+  color: var(--ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.origin-quote cite {
+  color: var(--muted);
+  font-size: 0.77rem;
+  font-style: normal;
+}
+
 .hero-actions {
   flex-wrap: wrap;
   gap: 26px;
@@ -599,6 +620,15 @@ h2 em {
 
   .hero-intro {
     font-size: 0.99rem;
+  }
+
+  .origin-quote {
+    margin-bottom: 28px;
+    padding-left: 15px;
+  }
+
+  .origin-quote p {
+    font-size: 0.92rem;
   }
 
   .section-content h2,
